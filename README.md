@@ -41,6 +41,7 @@ git & gitHub 순서
 # blockquote 긴 인용문(block)
 # q 짧은 인용문(inline)
 # code 화면에 코드 표시(inline)
-* address 자식, 자손으로는 inline 요소만 배치할 수 있다.
+# address 연락처 및 주소 정보(block)
+* 자식, 자손으로는 inline 요소만 배치할 수 있다.
 # hr 수평선(block)
 --------------------------------
