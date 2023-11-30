@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>회원가입</title>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <hr>
+    <form action="#" method="post" id="joinFrm">
+        <fieldset>
+            <legend>회원가입양식</legend>
+            <input type="text" placeholder="아이디" class="userId" name="userId"><br>
+            <input type="password" placeholder="비밀번호" class="userPwd" name="userPwd"><br>
+            <span>성별 :</span>
+            <label><input type="radio" name="gender" value="male"> 남</label>
+            <label><input type="radio" name="gender" value="female"> 여</label><br>
+            <span>정보 저장 동의 :</span>
+            <label><input type="radio" name="consent" value="yes"> 동의함</label>
+            <label><input type="radio" name="consent" value="no"> 동의안함</label><br>
+            <span>관심사<span>(2개 이상 선택하세요)</span></span>
+            <label>영화 <input type="checkbox" name="interests" value="movie"></label>
+            <label>운동 <input type="checkbox" name="interests" value="exercise"></label>
+            <label>독서 <input type="checkbox" name="interests" value="reading"></label><br>
+            <span>첨부파일</span>
+            <input type="file" value="userPhoto" accept="image/*"><br>
+            <button type="submit" id="joinBtn">가입</button>
+            <button type="reset" id="cancelBtn">가입취소</button>
+        </fieldset>
+    </form>
+</body>
+</html>
